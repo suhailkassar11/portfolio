@@ -1,5 +1,5 @@
 import React from 'react'
-import{About,Footer,Header,Skill,Testimonial,Work} from './container';
+import{About,Footer,Header,Skill,Work} from './container';
 import { Navbar } from './components';
 import './App.scss';
 const App = () => {
@@ -10,7 +10,6 @@ const App = () => {
     <About/>
     <Work/>
     <Skill/>
-    <Testimonial/>
     <Footer/>
     </div>
   )
