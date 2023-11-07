@@ -5,7 +5,7 @@ import Logo from '../../assets/logo.png'
 import {HiMenuAlt4,HiX} from 'react-icons/hi'
 const Navbar = () => {
     const [toggle,setToggle]=useState(false)
-    const NavItems=['home','about','work','skills','contact']
+    const NavItems=['home','about','work','skills','testimonial','contact']
   return (
     <nav className='app__navbar'>
         <div className='app__navbar-logo'>
