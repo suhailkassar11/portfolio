@@ -40,22 +40,22 @@ const Footer = () => {
       <h2 className="head-text">Take a coffee & chat with me</h2>
 
       <div className="app__footer-cards">
-        <div className="app__footer-card ">
+        <div style={{background:'white'}}  className="app__footer-card ">
           <img src={images.email} alt="email" />
           <a href="sk1181408@gmail.com" className="p-text">sk1181408@gmail.com</a>
         </div>
-        <div className="app__footer-card">
+        <div style={{background:'white'}} className="app__footer-card">
           <img src={images.mobile} alt="phone" />
           <a href="tel:+91 8171493074" className="p-text">+91 8171493074 </a>
         </div>
       </div>
       {!isFormSubmitted ? (
         <div className="app__footer-form app__flex">
-          <div className="app__flex">
-            <input className="p-text" type="text" placeholder="Your Name" name="username" value={username} onChange={handleChangeInput} />
+          <div  className="app__flex">
+            <input style={{background:'white'}} className="p-text" type="text" placeholder="Your Name" name="username" value={username} onChange={handleChangeInput} />
           </div>
           <div className="app__flex">
-            <input className="p-text" type="email" placeholder="Your Email" name="email" value={email} onChange={handleChangeInput} />
+            <input style={{background:'white'}} className="p-text" type="email" placeholder="Your Email" name="email" value={email} onChange={handleChangeInput} />
           </div>
           <div>
             <textarea
@@ -64,6 +64,7 @@ const Footer = () => {
               value={message}
               name="message"
               onChange={handleChangeInput}
+              style={{background:'white'}}
             />
           </div>
           <button type="button" className="p-text" onClick={handleSubmit}>{!loading ? 'Send Message' : 'Sending...'}</button>

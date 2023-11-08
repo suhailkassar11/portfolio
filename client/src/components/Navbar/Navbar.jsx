@@ -3,13 +3,14 @@ import './Navbar.scss'
 import { motion } from 'framer-motion';
 import {images} from '../../constants'
 import {HiMenuAlt4,HiX} from 'react-icons/hi'
+import Logo4 from '../../assets/logo4.png';
 const Navbar = () => {
     const [toggle,setToggle]=useState(false)
     const NavItems=['home','about','work','skills','contact']
   return (
     <nav className='app__navbar'>
         <div className='app__navbar-logo'>
-            <img src={images.logo1} alt="logo" />
+            <img src={Logo4} alt="logo" />
         </div>
         <ul className='app__navbar-links'>
             {NavItems.map((item,index)=>(<li className='app__flex p-text' key={index}>

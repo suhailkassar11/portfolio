@@ -30,7 +30,7 @@ const Work = () => {
   }
   return (
     <>
-     <h2 className='head-text'>My Creative <span>Portfolio</span>Section</h2> 
+     <h2 className='head-text'>My Creative <span>Projects</span> Section</h2> 
      <div className='app__work-filter'> 
         {['Web App','NextJs','React JS','All'].map((item,index)=>(<div key={index} onClick={()=>handleFilter(item)}
         className={`app__work-filter-item app__flex p-text ${activeFilter === item ? 'item-active':''}`}>{item}</div>))}
