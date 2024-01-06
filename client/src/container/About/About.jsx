@@ -12,7 +12,7 @@ const About = () => {
   },[])
   return (
     <>
-      <h2 className='head-text'>I belive That <span>Today's business </span><br />are<span>Tomorrow's Brand</span> </h2>
+      <h2 className='head-text'>I belive That <span>Technology </span><br />can <span>Change The World</span> </h2>
       <div className="app__profiles">
         {abouts.map((about,index)=>(
           <motion.div

@@ -2,7 +2,6 @@ import circle from '../assets/circle.png';
 import logo from '../assets/logo.png';
 import logo1 from '../assets/logo1.png';
 import profile from '../assets/profile.png';
-import profile1 from '../assets/profile1.png';
 import react from '../assets/react.png';
 import about2 from '../assets/about2.png';
 import tailwind from '../assets/tailwind.png';
@@ -24,7 +23,6 @@ export default{
     circle,
     logo,
     profile,
-    profile1,
     react,
     sass,
     tailwind,
